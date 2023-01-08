@@ -8,8 +8,8 @@
 }
 
 html {
-  @include scrollbar.designScrollbar;
   overflow-x: hidden;
+  @include scrollbar.designScrollbar;
 }
 
 body {

@@ -3,12 +3,12 @@
 @mixin designScrollbar {
     scroll-behavior: smooth;
     ::-webkit-scrollbar {
-        width: 5px;
-    
+        width: 7px;
+        background-color: variables.$dark-subtle;
+
         &-thumb {
-            width: 5px;
             border-radius: 5px;
-            border: 1px solid variables.$whiteSmoke;
+            border: 1px solid variables.$dark-subtle;
             background-color: variables.$primary-color;
         }
     }
