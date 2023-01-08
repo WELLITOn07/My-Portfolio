@@ -1,0 +1,7 @@
+@mixin top ($qtd) {
+    border-top: $qtd solid rgba(0, 0, 0, 0.360);
+}
+
+@mixin bottom ($qtd) {
+    border-bottom: $qtd solid rgba(0, 0, 0, 0.360);
+}

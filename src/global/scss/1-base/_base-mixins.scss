@@ -1,0 +1,12 @@
+@mixin flexContainerCenter ($gap) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $gap;
+}
+
+@mixin resetContainer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

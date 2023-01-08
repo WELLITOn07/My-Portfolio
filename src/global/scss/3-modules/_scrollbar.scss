@@ -1,0 +1,15 @@
+@use '../1-base/variables';
+
+@mixin designScrollbar {
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 5px;
+    
+        &-thumb {
+            width: 5px;
+            border-radius: 5px;
+            border: 1px solid variables.$whiteSmoke;
+            background-color: variables.$primary-color;
+        }
+    }
+}

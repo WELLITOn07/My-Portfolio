@@ -1,0 +1,15 @@
+@use '../1-base/variables';
+@use '../1-base/base-mixins';
+@use '../3-modules/border-shadow';
+
+.navbar {
+    @include base-mixins.flexContainerCenter(15px);
+    @include border-shadow.bottom(1px);
+}
+
+.pages {
+    &__menu {
+        height: 80vh;  
+    }
+    
+}

@@ -1,0 +1,23 @@
+@use '../1-base/variables';
+@use '../1-base/base-mixins';
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    background-color:  variables.$light-color 100%;
+    
+    &__wave {
+        @include base-mixins.resetContainer;
+        width: 100vw;
+
+        &.top {
+            position: relative;
+            bottom: 1px;
+        }
+
+        &.bottom {
+            position: relative;
+            top: 1px;
+        }
+    }
+}

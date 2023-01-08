@@ -1,0 +1,37 @@
+@use '../1-base/variables';
+
+nav {
+  a {
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+
+  a span {
+    padding: 5px;
+    position: relative;
+    z-index: 2;
+    color: variables.$light-color;
+  }
+
+  a:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: variables.$light-color;
+    transition: all .35s;
+  }
+
+
+  span:hover {
+    color: variables.$whiteSmoke;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+}

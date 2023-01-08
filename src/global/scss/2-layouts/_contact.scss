@@ -1,0 +1,6 @@
+@use '../1-base/variables';
+
+.contact {
+    background-color: variables.$dark-color;
+    height: 30vh;
+}

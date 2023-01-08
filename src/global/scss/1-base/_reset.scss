@@ -1,0 +1,28 @@
+@use '../0-plugins/google-fonts';
+@use 'variables';
+@use '../3-modules/scrollbar';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  @include scrollbar.designScrollbar;
+  overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
