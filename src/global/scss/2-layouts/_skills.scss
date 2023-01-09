@@ -2,23 +2,9 @@
 @use "../1-base/base-mixins";
 
 .skills {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-
-  &__wave {
-    @include base-mixins.resetContainer;
-    width: 100vw;
-
-    &.top {
-      position: relative;
-      bottom: 1px;
-    }
-  }
 
   &__cards {
     @include base-mixins.resetContainer;
-    width: 100vw;
     @include base-mixins.flexContainerCenter(10px);
 
     .card {
