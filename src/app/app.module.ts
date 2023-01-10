@@ -1,8 +1,9 @@
 import { ToolsModule } from './feature/tools/tools.module';
 import { JobsModule } from './feature/jobs/jobs.module';
 import { FeatureModule } from './feature/feature.module';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import "@lottiefiles/lottie-player";
 
 import { AppComponent } from './app.component';
 
@@ -17,6 +18,7 @@ import { AppComponent } from './app.component';
     JobsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
