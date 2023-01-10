@@ -1,0 +1,63 @@
+<body>
+  <header>
+    <nav id="menu" class="navbar navbar-light bg-dark-subtle fixed-top">
+      <a
+        class="nav-link animate__animated animate__flash animate__delay-3s animate__repeat-1"
+        href="#about"
+        ><span class="material-symbols-outlined">
+          sentiment_very_satisfied
+        </span></a
+      >
+      <!-------------->
+      <a
+        class="nav-link animate__animated animate__flash animate__delay-3s animate__repeat-1"
+        href="#skills"
+        ><span class="material-symbols-outlined"> rocket </span></a
+      >
+      <!-------------->
+      <a
+        class="nav-link animate__animated animate__flash animate__delay-3s animate__repeat-1"
+        href="#contact"
+        ><span class="material-symbols-outlined"> handshake </span></a
+      >
+    </nav>
+  </header>
+
+  <div
+    data-bs-spy="scroll"
+    data-bs-target="#menu"
+    data-bs-smooth-scroll="true"
+    tabindex="0"
+  >
+    <main class="pages">
+      <section>
+        <div class="pages__menu about" id="about">
+          <div class="about__animation"></div>
+
+          <div class="about__description">
+            <h1 class="animate__animated animate__flipInX">WELLITOn07</h1>
+            <p class="animate__animated animate__fadeInUp">
+              Olá meu nome é Welliton Becker, sou Front End Developer e
+              atualmente trabalho na
+              <a href="https://www.mjvinnovation.com/pt-br/" target="_blank"
+                >MJV</a
+              >, abaixo poderá ver minhas habilidades, meus trabalhos e
+              contatos.
+            </p>
+          </div>
+        </div>
+
+        <div class="pages__menu skills vw-100 vh-100" id="skills">
+          <div class="skills__cards vw-100 vh-100">
+            <div class="card tools"><app-skills></app-skills></div>
+            <div class="card jobs"><app-my-jobs></app-my-jobs></div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="pages__menu contact" id="contact"></div>
+      </footer>
+    </main>
+  </div>
+</body>
