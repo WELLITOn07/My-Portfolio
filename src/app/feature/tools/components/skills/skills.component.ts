@@ -3,16 +3,16 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-skills',
   template: `
-  <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselIdSkills" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Angular"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="HTML5"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="CSS3"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Sass"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Javascript"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Typescript"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="Git"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="7" aria-label="Bootstrap"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Angular"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="1" aria-label="HTML5"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="2" aria-label="CSS3"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="3" aria-label="Sass"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="4" aria-label="Javascript"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="5" aria-label="Typescript"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="6" aria-label="Git"></li>
+      <li data-bs-target="#carouselIdSkills" data-bs-slide-to="7" aria-label="Bootstrap"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
@@ -56,11 +56,11 @@ import { Component, OnInit } from '@angular/core';
       </div>
 
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselIdSkills" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselIdSkills" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
       </button>

@@ -1,6 +1,8 @@
 @use "../1-base/variables";
 @use "../1-base/base-mixins";
 @use "../3-modules/border-shadow";
+@use "../3-modules/imgs-carousel";
+
 .skills {
   @include base-mixins.resetContainer;
   @include base-mixins.flexContainerCenter(0);
@@ -16,6 +18,12 @@
       width: 40vw;
       height: 50vh;
       @include base-mixins.background-glass;
+      @include base-mixins.flexContainerCenter(0);
+      text-align: center;
+    }
+
+    .tools, .jobs {
+      @include imgs-carousel.adjustingImagesInTheCarousel;
     }
   }
 }
