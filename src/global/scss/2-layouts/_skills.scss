@@ -8,25 +8,28 @@
 
   &__cards {
     width: 100%;
+    height: max-content;
     @include base-mixins.resetContainer;
-    @include base-mixins.flexContainerCenter(20px);
+    @include base-mixins.flexContainerCenter(40px);
 
     .card {
       width: 40vw;
       height: 50vh;
       @include base-mixins.background-glass;
-
-      .tools {
-        @include base-mixins.resetContainer;
-        background-image: url("../../../assets/imagens/rocket.jpg");
-        @include base-mixins.background-image-center-contain;
-      }
-
-      .jobs {
-        @include base-mixins.resetContainer;
-        background-image: url("../../../assets/imagens/jobs.jpg");
-        @include base-mixins.background-image-center-contain;
-      }
     }
+  }
+
+  .tools-background {
+    @include base-mixins.resetContainer;
+    background-image: url("../../../assets/imagens/rocket.jpg");
+    @include base-mixins.background-image-center(cover);
+    border-radius: 16px;
+  }
+
+  .jobs-background {
+    @include base-mixins.resetContainer;
+    background-image: url("../../../assets/imagens/jobs.jpg");
+    @include base-mixins.background-image-center(cover);
+    border-radius: 16px;
   }
 }
