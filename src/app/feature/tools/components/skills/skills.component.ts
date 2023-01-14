@@ -17,42 +17,42 @@ import { Component, OnInit } from '@angular/core';
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
         <p>angular</p>
-        <img src="assets/imagens/skills/angular.png" class="w-100" alt="Angular">
+        <img src="assets/imagens/skills/angular.png" alt="Angular">
       </div>
         
       <div class="carousel-item">
         <p>html5</p>
-        <img src="assets/imagens/skills/html.png" class="w-100" alt="HTML5">
+        <img src="assets/imagens/skills/html.png" alt="HTML5">
       </div>
 
       <div class="carousel-item">
         <p>css3</p>
-        <img src="assets/imagens/skills/css.png" class="w-100" alt="CSS3">
+        <img src="assets/imagens/skills/css.png" alt="CSS3">
       </div>
 
       <div class="carousel-item">
         <p>sass</p>
-        <img src="assets/imagens/skills/sass.png" class="w-100" alt="Sass">
+        <img src="assets/imagens/skills/sass.png" alt="Sass">
       </div>
 
       <div class="carousel-item">
         <p>javascript</p>
-        <img src="assets/imagens/skills/javascript.png" class="w-100" alt="Javascript">
+        <img src="assets/imagens/skills/javascript.png" alt="Javascript">
       </div>
 
       <div class="carousel-item">
         <p>typescript</p>
-        <img src="assets/imagens/skills/typescript.png" class="w-100" alt="Typescript">
+        <img src="assets/imagens/skills/typescript.png" alt="Typescript">
       </div>
 
       <div class="carousel-item">
         <p>git</p>
-        <img src="assets/imagens/skills/git.png" class="w-100" alt="Git">
+        <img src="assets/imagens/skills/git.png" alt="Git">
       </div>
 
       <div class="carousel-item">
         <p>bootstrap</p>
-        <img src="assets/imagens/skills/bootstrap.png" class="w-100" alt="Bootstrap">
+        <img src="assets/imagens/skills/bootstrap.png" alt="Bootstrap">
       </div>
 
     </div>
