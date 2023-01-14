@@ -4,10 +4,7 @@
 .skills {
   @include base-mixins.resetContainer;
   @include base-mixins.flexContainerCenter(0);
-  background-color: #21d4fd;
-  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  @include base-mixins.background-gradient-theme;
 
   &__cards {
     width: 100%;
@@ -17,18 +14,18 @@
     .card {
       width: 40vw;
       height: 50vh;
-      /* From https://css.glass */
-      background: rgba(255, 255, 255, 0.15);
-      border-radius: 16px;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-      backdrop-filter: blur(2.1px);
-      -webkit-backdrop-filter: blur(2.1px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      @include base-mixins.background-glass;
 
-      &.tools {
+      .tools {
+        @include base-mixins.resetContainer;
+        background-image: url("../../../assets/imagens/rocket.jpg");
+        @include base-mixins.background-image-center-contain;
       }
 
-      &.jobs {
+      .jobs {
+        @include base-mixins.resetContainer;
+        background-image: url("../../../assets/imagens/jobs.jpg");
+        @include base-mixins.background-image-center-contain;
       }
     }
   }
