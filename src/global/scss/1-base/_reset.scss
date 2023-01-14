@@ -1,6 +1,6 @@
-@use '../0-plugins/google-fonts';
-@use 'variables';
-@use '../3-modules/scrollbar';
+@use "../0-plugins/google-fonts";
+@use "variables";
+@use "../3-modules/scrollbar";
 
 * {
   padding: 0;
@@ -15,7 +15,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 input {

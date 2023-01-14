@@ -4,8 +4,8 @@
 .skills {
   @include base-mixins.resetContainer;
   @include base-mixins.flexContainerCenter(0);
-  background-color: #21D4FD;
-background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 
@@ -25,9 +25,11 @@ background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
       -webkit-backdrop-filter: blur(2.1px);
       border: 1px solid rgba(255, 255, 255, 0.3);
 
-      &.tools {}
+      &.tools {
+      }
 
-      &.jobs {}
+      &.jobs {
+      }
     }
   }
 }
