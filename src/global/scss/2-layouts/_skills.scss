@@ -18,18 +18,4 @@
       @include base-mixins.background-glass;
     }
   }
-
-  .tools-background {
-    @include base-mixins.resetContainer;
-    background-image: url("../../../assets/imagens/rocket.jpg");
-    @include base-mixins.background-image-center(cover);
-    border-radius: 16px;
-  }
-
-  .jobs-background {
-    @include base-mixins.resetContainer;
-    background-image: url("../../../assets/imagens/jobs.jpg");
-    @include base-mixins.background-image-center(cover);
-    border-radius: 16px;
-  }
 }

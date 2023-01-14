@@ -34,7 +34,14 @@
         <div class="pages__menu about" id="about">
           <div class="about__animation">
             <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_2glqweqs.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
+            <lottie-player
+              src="https://assets4.lottiefiles.com/packages/lf20_2glqweqs.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              loop
+              autoplay
+            ></lottie-player>
           </div>
 
           <div class="about__description">
@@ -52,15 +59,11 @@
 
         <div class="pages__menu skills vw-100 vh-100" id="skills">
           <div class="skills__cards vw-100 vh-100">
-            <div class="tools-background animate__animated animate__fadeIn animate__delay-1s">
-              <div class="card tools">
-                <app-skills></app-skills>
-              </div>
+            <div class="card tools animate__animated animate__fadeIn animate__delay-1s">
+              <app-skills></app-skills>
             </div>
-            <div class="jobs-background animate__animated animate__fadeIn animate__delay-1s">
-              <div class="card jobs">
-                <app-my-jobs></app-my-jobs>
-              </div>
+            <div class="card jobs animate__animated animate__fadeIn animate__delay-1s">
+              <app-my-jobs></app-my-jobs>
             </div>
           </div>
         </div>
