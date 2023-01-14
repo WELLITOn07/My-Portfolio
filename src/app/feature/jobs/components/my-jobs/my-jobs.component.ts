@@ -5,13 +5,12 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-      <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+      <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="under-construction"></li>
     </ol>
     <div class="carousel-inner" role="listbox">
       <div class="carousel-item active">
-        <img src="assets/imagens/skills/typescript.png" class="w-100 h-50 d-block" alt="First slide">
+        <p>Em Construção</p>
+        <img src="assets/imagens/jobs/under-construction.png" class="w-100 h-50 d-block" alt="under-construction">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
