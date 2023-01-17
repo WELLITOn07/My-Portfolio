@@ -13,10 +13,10 @@ import { Component, OnInit } from '@angular/core';
         <img src="assets/imagens/skills/angular.png" alt="Angular">
       </div>
         
-      <div *ngFor="let item of skillsArray index as i">
+      <div *ngFor="let item of skillsArray">
         <div class="carousel-item">
           <p>{{ item.name }}</p>
-          <img src="assets/imagens/skills/{{item.path}}.png" alt="{{item.name}}">
+          <img src="assets/imagens/skills/{{item.path}}.png" alt="{{item.name + '.img'}}">
         </div>
       </div>
 
@@ -37,7 +37,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  skillsArray: Array<JobsAndSkills> = this.dataDistributiontriService.skillsArray
+  skillsArray: Array<JobsAndSkills> = this.dataDistributiontriService.skillsArray;
 
   constructor(public dataDistributiontriService: DataDistributiontriService) { }
 

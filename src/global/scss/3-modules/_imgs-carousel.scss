@@ -1,14 +1,14 @@
-@mixin adjustingImagesInTheCarousel {
+@mixin adjustingImagesInTheCarousel ($width, $height, $padding) {
     p {
         margin: 10px;
       }
     
       img {
         display: block;
-        width: 200px;
-        height: 150px;
+        width: $width;
+        height: $height;
         object-fit: contain;
-        padding-bottom: 40px;
+        padding-bottom: $padding;
     }
 }
 

@@ -2,6 +2,7 @@
 @use "../1-base/base-mixins";
 @use "../3-modules/border-shadow";
 @use "../3-modules/imgs-carousel";
+@use '../3-modules/media-queries';
 
 .skills {
   @include base-mixins.resetContainer;
@@ -12,6 +13,7 @@
     width: 100%;
     height: max-content;
     @include base-mixins.resetContainer;
+    padding: 20px 0;
     @include base-mixins.flexContainerCenter(40px);
 
     .card {
@@ -23,7 +25,7 @@
     }
 
     .tools, .jobs {
-      @include imgs-carousel.adjustingImagesInTheCarousel;
+      @include media-queries.breakpoints()
     }
   }
 }
