@@ -8,28 +8,28 @@
     
     .tools,
     .jobs {
-      @include imgs-carousel.adjustingImagesInTheCarousel(200px, 200px, 80px);
+      @include imgs-carousel.adjustingImagesInTheCarousel(200px, 200px);
     }
   }
 
   @media screen and (min-width: 600px) and (max-width: 768px) {
     .tools,
     .jobs {
-      @include imgs-carousel.adjustingImagesInTheCarousel(250px, 250px, 250px);
+      @include imgs-carousel.adjustingImagesInTheCarousel(250px, 250px);
     }
   }
 
   @media screen and (min-width: 768px) and (max-width: 992px) {
     .tools,
     .jobs {
-      @include imgs-carousel.adjustingImagesInTheCarousel(300px, 300px, 60px);
+      @include imgs-carousel.adjustingImagesInTheCarousel(300px, 300px);
     }
   }
 
   @media screen and (min-width: 992px)  {
     .tools,
     .jobs {
-      @include imgs-carousel.adjustingImagesInTheCarousel(350px, 350px, 50px);
+      @include imgs-carousel.adjustingImagesInTheCarousel(300px, 300px);
     }
   }
 }

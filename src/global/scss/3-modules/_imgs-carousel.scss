@@ -1,4 +1,4 @@
-@mixin adjustingImagesInTheCarousel ($width, $height, $padding) {
+@mixin adjustingImagesInTheCarousel ($width, $height) {
     p {
         margin: 10px;
       }
@@ -8,7 +8,6 @@
         width: $width;
         height: $height;
         object-fit: contain;
-        padding-bottom: $padding;
     }
 }
 

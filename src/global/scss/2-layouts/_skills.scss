@@ -25,7 +25,7 @@
     }
 
     .tools, .jobs {
-      @include media-queries.breakpoints()
+      @include media-queries.breakpoints();
     }
   }
 }
