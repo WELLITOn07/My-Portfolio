@@ -7,13 +7,13 @@ import { JobsAndSkills } from '../models/jobs-skills-model';
 export class DataDistributiontriService {
 
   skillsArray: Array<JobsAndSkills> = [
-    {name: 'HTML5', path: 'html'},
-    {name: 'CSS3', path: 'css'},
-    {name: 'Sass', path: 'sass'},
-    {name: 'Javascript', path: 'javascript'},
-    {name: 'Typescript', path: 'typescript'},
-    {name: 'Git', path: 'git'},
-    {name: 'Bootstrap', path: 'bootstrap'}
+    {typeName:'' ,name: 'HTML5', path: ''},
+    {typeName:'' ,name: 'CSS3', path: ''},
+    {typeName:'' ,name: 'Sass', path: ''},
+    {typeName:'' ,name: 'Javascript', path: ''},
+    {typeName:'' ,name: 'Typescript', path: ''},
+    {typeName:'' ,name: 'Git', path: ''},
+    {typeName:'' ,name: 'Bootstrap', path: ''}
   ];
 
   jobsArray: Array<JobsAndSkills> = [];
