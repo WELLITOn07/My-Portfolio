@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
  <div class="container-fluid tools" *ngFor="let item of skillsArray">
   <div class="tools__content">
-    <img src="../../../../../assets/imagens/skills/{{item.path}}.png" alt="{{item.name + '.img'}}">
+    <img src="../../../../../assets/imagens/skills/{{item.path}}.png" alt="{{item.path + '.img'}}">
     <h2>{{item.typeName}}</h2>
     <p>{{item.name}}</p>
   </div>
