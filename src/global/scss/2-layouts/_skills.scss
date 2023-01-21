@@ -5,4 +5,11 @@
 
 .skills {
   @include base-mixins.background-gradient-theme;
+  height: auto;
+
+  &__cards {
+    @include base-mixins.flexContainerCenter(10px);
+    flex-direction: column;
+    padding: 10px 0;
+  }
 }
