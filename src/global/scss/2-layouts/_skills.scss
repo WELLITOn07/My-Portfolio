@@ -1,31 +1,9 @@
 @use "../1-base/variables";
 @use "../1-base/base-mixins";
 @use "../3-modules/border-shadow";
-@use "../3-modules/imgs-carousel";
 @use '../3-modules/media-queries';
 
 .skills {
   @include base-mixins.resetContainer;
-  @include base-mixins.flexContainerCenter(0);
   @include base-mixins.background-gradient-theme;
-
-  &__cards {
-    width: 100%;
-    height: max-content;
-    @include base-mixins.resetContainer;
-    padding: 20px 0;
-    @include base-mixins.flexContainerCenter(40px);
-
-    .card {
-      width: 40vw;
-      height: 50vh;
-      @include base-mixins.background-glass;
-      @include base-mixins.flexContainerCenter(0);
-      text-align: center;
-    }
-
-    .tools, .jobs {
-      @include media-queries.breakpoints();
-    }
-  }
 }
