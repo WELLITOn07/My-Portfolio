@@ -5,12 +5,6 @@
   gap: $gap;
 }
 
-@mixin resetContainer {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 @mixin background-image-center($size) {
   background-repeat: no-repeat;
   background-position: center;

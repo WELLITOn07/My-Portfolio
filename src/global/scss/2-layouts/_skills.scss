@@ -4,6 +4,5 @@
 @use '../3-modules/media-queries';
 
 .skills {
-  @include base-mixins.resetContainer;
   @include base-mixins.background-gradient-theme;
 }
